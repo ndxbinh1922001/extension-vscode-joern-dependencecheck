@@ -1,32 +1,8 @@
-![Deploy Extension](https://github.com/aquasecurity/trivy-vscode-extension/workflows/Deploy%20Extension/badge.svg)
+# Joern-DependenceCheck Vulnerability Scanner Plugin
 
-# Trivy Vulnerability Scanner Plugin
-
-Trivy Vulnerability Scanner is a VS Code plugin that helps you find vulnerabilities in your software projects
-without leaving the comfort of your VS Code window.
-
-## Demo 
-
-![Trivy Scan in Action](https://github.com/aquasecurity/trivy-vscode-extension/blob/master/trivy-scan.gif?raw=true)
-
-## Requirements
-
-1. [Trivy](https://github.com/aquasecurity/trivy#installation) version v0.9.1 and above.
-
-## Known Issues
-
-If you find one, please file a GitHub Issue [here](https://github.com/aquasecurity/trivy-vscode-extension/issues/new).
-
-## Feature Requests
-
-Have a feature you desire? Please let us know by filing an issue [here](https://github.com/aquasecurity/trivy-vscode-extension/issues/new).
-
-## Major Release Notes
-
-### 0.2.0
-
-Automatic detection of old Trivy versions.
-
-### 0.1.1
-
-Initial release with basic project scanning.
+ ## Setup để có thể chạy được plugin này (plugin chạy được trên hệ điều hành linux):
+ - Clone repo này về máy.
+ - Trong thư mục joern-vscode-extension tải repo dependence-check về.
+![image](https://user-images.githubusercontent.com/86184794/148477915-2860b805-0bfd-47f0-a1e4-964df907b14e.png)
+ - Copy chuỗi lệnh này để tải repo dependence-check: wget https://github.com/jeremylong/DependencyCheck/releases/download/v6.5.2/dependency-check-6.5.2-release.zip; unzip dependency-check-6.5.2-release.zip;
+ - Lưu ý là khi plugin chạy lần đầu tiên khá lâu vì nó phải tải database cve của dependence-check vào thư mục joern-vscode-extension của chúng ta
